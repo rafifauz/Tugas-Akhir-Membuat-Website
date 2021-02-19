@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/button.js"></script>
+    <title>stockcamera.id</title>
+</head>
+
+<body>
+    <header>
+        <div class="Banner">
+            <a><img src="assets/img/logo.png" alt="stockcamera.id" class="rounded" width="20%"></a>
+            <h1>stockcamera.id</h1>
+            <p>Merdeka Belajar, Merdeka Mengajar</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#stockcamera.id-adalah">What is stockcamera.id ?</a></li>
+                <li><a href="#cara-mendaftar">Cara Mendaftar</a></li>
+                <li><a href="#vip">VIP!</a></li>
+                <div class="search">
+                    <li><a onclick="myFunction()" class="searchbtn">Search &#x1f50e;</a></li>
+                    <!-- <button onclick="myFunction()" class="searchbtn">Search</button> -->
+                    <div id="mySearch" class="search-content">
+                        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                        <a href="#stockcamera.id-adalah">stockcamera.id</a>
+                        <a href="#cara-mendaftar">Cara Mendaftar</a>
+                        <a href="#vip">VIP!</a>
+                        <a href="https://www.linkedin.com/in/muhammad-rafi">Contact</a>
+                        <a href="https://www.linkedin.com/in/muhammad-rafi">Custom</a>
+                        <a href="https://www.linkedin.com/in/muhammad-rafi">Support</a>
+                        <a href="https://www.linkedin.com/in/muhammad-rafi">Tools</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="stockcamera.id-adalah" class="card">
+                <h2>Stockcamera.id </h2>
+                <img src="assets/img/photo-content.jpg" class="featured-image">
+                <p style="text-align:justify">Stockcamera.id adalah website yang menyediakan layanan pengunduhan stock foto secara gratis bagi pelajar dan mahasiswa debgab prasyarat bahwa foto yang diunduh dari website kami tidak akan digunakan untuk kegiatan komersil kecuali keorganisasian
+                    seperti OSIS, HIMPUNAN dan BEM yang telah diakui oleh pihak kepala seskolah atau Universitas. </p>
+                <p style="text-align:justify">Kami juga menyediakan stock foto khusus dengan akses VIP kepada user yang melakukan subcription VIP, Dimana stock foto tersebut dapat digunakan untuk kepentingan komersil dan sah secara hukum.
+                </p>
+
+            </article>
+
+            <article id="cara-mendaftar" class="card">
+                <h2>Cara Mendaftar</h2>
+                <div>
+                    <form action="/action_page.php">
+                        <label for="fname">Nama Depan</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                        <label for="email">Student Email</label>
+                        <input type="text" id="email" name="studentemail" placeholder="Your studsnet email..">
+
+                        <label for="university">Sekolah/Universitas</label>
+                        <select id="university" name="university">
+                        <option value="ub">Universitas Brawijaya</option>
+                        <option value="ui">UI</option>
+                        <option value="unair">UNAIR</option>
+                        <option value="itb">ITB</option>
+                        <option value="ugm">UGM</option>
+                      </select>
+
+                        <input id="submit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </article>
+
+            <article id="vip" class="card">
+                <h2 id="vip">VIP!</h2>
+                <table id="vip-register">
+                    <tr>
+                        <th></th>
+                        <th>Free</th>
+                        <th>VIP</th>
+                    </tr>
+                    <tr>
+                        <td>Thousands of free resources</td>
+                        <td> &#x2713;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                    <tr>
+                        <td>Commercial use</td>
+                        <td> &#x274C;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                    <tr>
+                        <td>+349,000 Premium photos</td>
+                        <td> &#x274C;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                    <tr>
+                        <td>+22,000 Premium psd files </td>
+                        <td> &#x274C;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                    <tr>
+                        <td>No attribution required </td>
+                        <td> &#x274C;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                    <tr>
+                        <td>Unlimited downloads</td>
+                        <td> &#x274C;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                    <tr>
+                        <td>Priority support</td>
+                        <td> &#x274C;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                    <tr>
+                        <td>No ads</td>
+                        <td> &#x274C;</td>
+                        <td> &#x2713;</td>
+                    </tr>
+                </table>
+                <input type="submit" value="register">
+
+            </article>
+        </div>
+
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2 id="profile">Profil</h2>
+                    <figure>
+                        <img src="assets/img/saya.jpeg" alt="rafi" class="rounded" width="60%">
+                        <figcaption>
+                            <a> Muhammad Rafi</a><br>
+                            <a> University Student</a>
+                        </figcaption>
+                    </figure>
+                    <section>
+                        <a href="https://github.com/rafifauz"><img src="assets/img/github.png" alt="Github" width="15%"></a>
+                        <a href="https://www.linkedin.com/in/muhammad-rafi"><img src="assets/img/linkedIn.png" alt="linkedIn" width="15%"></a>
+                    </section>
+                </header>
+            </article>
+        </aside>
+    </main>
+
+
+
+    <footer>
+        <p>Copyright &copy; 2021 by <a href="https://rafifauz.site/">rafifauz.site</a></p>
+    </footer>
+</body>
+
+</html>
